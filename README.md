@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Install Tailwind CSS with Create React App
+
+> [Reference](https://tailwindcss.com/docs/guides/create-react-app)
+
+## 1. Create React Project
+
+```bash
+npx create-react-app my-portfolio
+cd my-portfolio
+```
+
+## 2. Install Tailwind CSS
+
+Make sure your current directory is in your react project folder. If not, use `cd my-portfolio` to make sure you're in the right folder .
+
+You can alway use `pwd` in the terminal to chack you're current directory.
+
+> Install Tailwind
+
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+## 3. Configure Your Template Paths
+
+> Copy and pasted this into your `tailwind.config.js` file
+
+```bash
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+## 4. Add the Tailwind Directives to Your CSS
+
+> Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
