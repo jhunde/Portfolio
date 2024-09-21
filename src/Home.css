@@ -1,0 +1,43 @@
+/* src/Home.css */
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://example.com/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .home-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    background-color: #f0db4f;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #e5c700;
+  }
+  
