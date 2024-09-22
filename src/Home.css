@@ -28,28 +28,30 @@
 
   .profile-image{
     width: 250px;
+    border-radius: 200px;
   }
-  .buttons {
+  .buttons-container {
+    position: absolute;     /*Fixed the issue of image being on the left*/
     display: flex;
-    justify-content: flex-end;
+    bottom: 50px;
+    gap: 20px;
+    
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
   }
-  .resume-button{
-    
-    background-color:rgba(255, 255, 255, 1);
-    color: black;
+  .resume-button, .contact-button{
+    padding: 10px 20px;
+    background-color: #f0db4f;
+    color: #333;
     border-radius: 10px;
     font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
-  .contact-button{
-    
-    background-color:rgba(255, 255, 255, 1);
-    color: black;
-    font-size: 30px;
-    border-radius: 10px;
-    
+  .resume-button:hover, .contact-button:hover{
+    background-color: #8d7f7c;
   }
+
   .home-button {
     padding: 10px 20px;
     background-color: #f0db4f;

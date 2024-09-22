@@ -12,14 +12,12 @@ const Home = () => {
             </div>
 
             <div className='home-content'>
-            
-            <img className="profile-image" src="./img/francesco-tommasini-JINPheIkUek-unsplash.jpg" alt="Description of the image" />
-           
+                <img className="profile-image" src="./img/francesco-tommasini-JINPheIkUek-unsplash.jpg" alt="Description of the image" />
             </div>
-            <ul className='buttons'> 
+            <div className='buttons-container'> 
                 <button className='resume-button'> Resume</button>
                 <button className='contact-button'> Contact </button>    
-            </ul>
+            </div>
         </div>
     )
 }
