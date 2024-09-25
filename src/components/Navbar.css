@@ -5,16 +5,6 @@
 
 
 /* src/Navbar.css */
-.navbar{
-    background-color: rgb(50, 107, 181);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color:#fff;
-    padding: 1rem;
-}
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
