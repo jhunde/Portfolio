@@ -1,3 +1,17 @@
 .contact-component{
+    height: 100vh;
     background-color: rgb(175, 255, 164);
+    padding: 50px;
+}
+
+.contact-component h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.contact-component p{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 }

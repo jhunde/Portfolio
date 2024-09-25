@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
     return(
         <div className='about-container'>
-            <h1>Contact</h1>    
+            <h1><b>Full Name</b></h1>    
             <p>This is the about page</p>
         </div>
     );
